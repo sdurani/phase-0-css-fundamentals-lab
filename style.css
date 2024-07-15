@@ -2,4 +2,71 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: #ffffff; 
+}
+
+
+header h1 {
+  text-align: center;
+}
+
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white; 
+  background-color: grey;
+  text-align: center;
+}
+
+
+figcaption {
+  font-size: 14px; 
+  text-align: center; 
+}
+
+
+#featured-property p {
+  width: 800px; 
+  margin: 20px auto; 
+  text-align: center; 
+}
+
+
+#details div {
+  float: left; 
+  width: 25%; 
+  background-color: red; 
+  text-align: center; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+
+#details::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+div {
+  font-family: "Helvetica Neue";
+  padding: 30px; 
+}
+
+
+#main-header {
+  font-size: 22px;
+}
+
+
+.perspective-questions {
+  font-style: italic;
 }
